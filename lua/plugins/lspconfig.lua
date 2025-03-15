@@ -15,6 +15,7 @@ return {
         },
         config = function()
             require("lspconfig").lua_ls.setup{}
+            require'lspconfig'.gdscript.setup{}
         end,
     }
 
